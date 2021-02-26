@@ -1,0 +1,564 @@
+.area-restrita-medico .section-paciente .paciente .formulario-paciente {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-paciente {
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.area-restrita-medico .historico table {
+    width: 100%;
+    text-align: center;
+}
+
+.area-restrita-medico .historico table thead {
+    color: #0956b9;
+}
+
+.area-restrita-medico .historico {
+    width: 100%;
+    height: 100%;
+}
+
+.area-restrita-medico .receita {
+    width: 100%;
+    height: 100%;
+}
+
+.area-restrita-medico .receita button {
+    margin-top: 5%;
+}
+
+.area-restrita-medico .observacoes {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .declaracao {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .atestado {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .anamnese {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .formulario-anamnese {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.area-restrita-medico .prontuarios {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .fila-paciente {
+    width: 100%;
+    height: auto;
+}
+
+.fila-paciente {
+    height: 100%;
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .triagem {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 33%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    background-color: white;
+}
+
+.area-restrita-medico .textarea-observacoes {
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.area-restrita-medico .textarea-medico {
+    border: 2px solid #0a489b;
+    width: 98%;
+    height: 20%;
+}
+
+.area-restrita-medico .label-textarea-medico {
+    color: #616161;
+    font-size: 17px;
+}
+
+.botoes-observacoes {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.botoes-observacoes .botão-salvar-informacoes {
+    float: left;
+    margin-left: 70%;
+}
+
+.botoes-observacoes .botão-salvar-informacoes .far {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-observacoes .botão-salvar-informacoes .legenda-btn-observacoes {
+    float: right;
+    margin-right: -15%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-observacoes .botão-salvar-imprimir-informacoes {
+    float: left;
+    margin-left: 5%;
+}
+
+.botoes-observacoes .botão-salvar-imprimir-informacoes .fas {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-observacoes .botão-salvar-imprimir-informacoes .legenda-btn-observacoes {
+    float: right;
+    margin-right: -10%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-observacoes button {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+
+/*BOTOES RECEITA*/
+
+.botoes-receita {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+
+.botoes-receita .botão-salvar-informacoes {
+    float: left;
+    margin-top: 5.5%;
+    margin-left: 70%;
+}
+
+.botoes-receita .botão-salvar-informacoes .far {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-receita .botão-salvar-informacoes .legenda-btn-receita {
+    float: right;
+    margin-right: -15%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-receita .botão-salvar-imprimir-informacoes {
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.botoes-receita .botão-salvar-imprimir-informacoes .fas {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-receita .botão-salvar-imprimir-informacoes .legenda-btn-receita {
+    float: right;
+    margin-right: -10%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-receita button {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+
+/*BOTOES ATESTADO*/
+
+.botoes-atestado {
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.botoes-atestado .botão-salvar-informacoes {
+    float: left;
+    margin-top: 2%;
+    margin-left: 70%;
+}
+
+.botoes-atestado .botão-salvar-informacoes .far {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-atestado .botão-salvar-informacoes .legenda-btn-atestado {
+    float: right;
+    margin-right: -15%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-atestado .botão-salvar-imprimir-informacoes {
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.botoes-atestado .botão-salvar-imprimir-informacoes .fas {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-atestado .botão-salvar-imprimir-informacoes .legenda-btn-atestado {
+    float: right;
+    margin-right: -10%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-atestado button {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+
+/*BOTOES DECLARACAO*/
+
+.botoes-declaracao {
+    width: 100%;
+    border: none;
+}
+
+.botoes-declaracao button {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+.botoes-declaracao .botão-salvar-informacoes {
+    float: left;
+    width: 8%;
+    margin-top: 2%;
+    margin-left: 70%;
+    border: none;
+}
+
+.botoes-declaracao .botão-salvar-informacoes .far {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-declaracao .botão-salvar-informacoes .legenda-btn-declaracao {
+    float: right;
+    margin-right: -15%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.botoes-declaracao .botão-salvar-imprimir-informacoes {
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.botoes-declaracao .botão-salvar-imprimir-informacoes .fas {
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.botoes-declaracao .botão-salvar-imprimir-informacoes .legenda-btn-declaracao {
+    float: right;
+    margin-right: -10%;
+    font-size: 17px;
+    color: #0956b9;
+}
+
+.btn-finalizar {
+    margin-top: -16%;
+    margin-left: 50%;
+}
+
+.area-restrita-medico .plus-btn-form {
+    margin-top: -18%;
+    font-size: 16px;
+    margin-left: 95%;
+    color: #0a489b;
+}
+
+.area-restrita-medico .container-prontuario {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 60%;
+}
+
+.area-restrita-medico .container-prontuario .menu-prontuario .nav-item {
+    color: #042c61;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.area-restrita-medico .container-prontuario .menu-prontuario .nav-item .nav-link {
+    color: #0956b9;
+    text-decoration: none;
+}
+
+#mytab {
+    margin-bottom: 2%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-medicos table {
+    text-align: center;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-medicos table thead {
+    color: #0956b9;
+}
+
+.area-restrita-medico .container-prontuario form {
+    margin-bottom: 5%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento table {
+    text-align: center;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento table thead {
+    color: #0956b9;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .fas {
+    color: #277ceb;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .fa-times {
+    color: rgb(197, 18, 18);
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios {
+    position: relative;
+    margin-top: 5%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .recepcao .legenda-nome {
+    float: left;
+    margin-left: 30%;
+    color: black;
+    margin-top: -20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .recepcao .fas {
+    color: rgba(36, 155, 12, 0.596);
+    float: left;
+    margin-left: 15%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .triagem .legenda-nome {
+    margin-left: 25%;
+    float: left;
+    color: black;
+    margin-top: -20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .triagem .fas {
+    color: rgb(234, 238, 12);
+    float: left;
+    margin-left: 15%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .consulta .legenda-nome {
+    margin-left: 25%;
+    float: left;
+    color: black;
+    margin-top: -20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .consulta .fas {
+    color: #277ceb;
+    float: left;
+    margin-left: 10%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-encerrados table {
+    text-align: center;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-encerrados table thead {
+    color: #0956b9;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .finalizado .legenda-nome {
+    margin-left: 25%;
+    float: left;
+    color: black;
+    margin-top: -18%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .finalizado .fas {
+    color: #12c24d;
+    float: left;
+    margin-left: 10%;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .cancelado .legenda-nome {
+    margin-left: 25%;
+    float: left;
+    color: black;
+    margin-top: -18%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.area-restrita-medico .container-prontuario .prontuarios-em-andamento .legenda-prontuarios .cancelado .fas {
+    color: #d41a1a;
+    float: left;
+    margin-left: 10%;
+}
+
+.area-restrita-medico .fila-paciente table {
+    width: 80%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.area-restrita-medico .fila-paciente table thead {
+    color: #0a489b;
+}
+
+.area-restrita-medico .fila-paciente .tabela-fila-paciente {
+    width: 80%;
+    max-height: 70%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.area-restrita-medico .fila-paciente .tabela-fila-paciente table {
+    width: 100%;
+}
+
+.area-restrita-medico .historico table {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.area-restrita-medico .historico table thead {
+    color: #0a489b;
+}
+
+.area-restrita-medico .historico .tabela-fila-queixas {
+    width: 80%;
+    max-height: 70%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.area-restrita-medico .historico .tabela-fila-queixas table {
+    width: 100%;
+}
+
+.adicionar-medicamento {
+    border: none;
+    background-color: white;
+    color: #0956b9;
+    font-size: 30px;
+    float: right;
+}
+
+.medicamentos-adicionais {
+    margin-top: 20%;
+}
+
+.subtitulo-descricao-main {
+    margin-top: 10%;
+}
+
+.subtitulo {
+    color: #0956b9;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.adicionar-medicamento {
+    border: none;
+    background-color: white;
+    color: #0956b9;
+    font-size: 30px;
+    float: right;
+}
+
+.medicamentos-adicionais {
+    margin-top: 20%;
+}
+
+.subtitulo-descricao-main {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.subtitulo {
+    color: #0956b9;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tabela-rolavel-medico{
+    max-height: 50%;
+    width: 100%;
+    overflow: auto;
+}

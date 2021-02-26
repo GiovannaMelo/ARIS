@@ -1,0 +1,514 @@
+/*TELA LOGIN*/
+
+.body-login {
+    background-image: linear-gradient(#0a489b, #6694cf, rgb(255, 255, 255));
+}
+
+.login-ladoE {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.login-ladoD {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
+
+.logo-login {
+    float: left;
+    width: 45%;
+    height: 20%;
+    margin-top: 35%;
+    margin-left: 25%;
+}
+
+.container-administrador {
+    float: left;
+    margin-left: 20%;
+    margin-top: 20%;
+    background-color: white;
+    width: 55%;
+    height: 8%;
+    border-radius: 2.5%;
+    color: black;
+    border: none;
+}
+
+.formLogin .label-login {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 30%;
+    font-size: 17;
+}
+
+.formLogin label {
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 17;
+}
+
+#txtLogin {
+    margin-left: 10%;
+    border: none;
+    border-bottom: 1px solid rgb(88, 88, 88);
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+#txtSenha {
+    margin-left: 10%;
+    border: none;
+    border-bottom: 1px solid rgb(88, 88, 88);
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.formLogin .fas {
+    width: 50;
+    margin-left: 10%;
+}
+
+.formLogin .esqueceu {
+    font-size: 15;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.formLogin button {
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 14%;
+    height: 8%;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.buttonEntrar:hover {
+    opacity: 0.8;
+}
+
+.label-administrador {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.container-administrador .fas {
+    margin-left: 20%;
+}
+
+.container-funcionario {
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: white;
+    width: 55%;
+    height: 8%;
+    border-radius: 2.5%;
+    color: black;
+    border: none;
+}
+
+.label-funcionario {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.container-funcionario .fas {
+    margin-left: 20%;
+}
+
+
+/*HOME ADM*/
+
+.construcao-home-adm {
+    width: 100%;
+}
+
+.construcao-home-adm .texto h3 {
+    margin-left: 6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3c86e0;
+}
+
+.fila-um {
+    width: 100%;
+    height: 22%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila-dois {
+    width: 100%;
+    height: 22%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila-tres {
+    width: 100%;
+    height: 22%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-fila {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.tamanho-a {
+    display: block;
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cont-um {
+    background-color: #0a489b;
+}
+
+.cont-dois {
+    background-color: #073A80;
+}
+
+.cont-tres {
+    background-color: #185DBC;
+}
+
+.cont-quatro {
+    background-color: #3F74BE;
+}
+
+.cont-cinco {
+    background-color: #0346A3;
+}
+
+.fasz {
+    color: white;
+    font-size: 50px;
+    margin-top: 24%;
+}
+
+.conteudo-fila p {
+    text-align: center;
+    color: white;
+}
+
+
+/*TELA PACIENTES CADASTRADOS*/
+
+.area-restrita-adm-pacientes-cadastrados {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.area-restrita-adm-pacientes-cadastrados .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.area-restrita-adm-pacientes-cadastrados .pesquisa-pacientes {
+    margin-bottom: 5%;
+}
+
+.area-restrita-adm-pacientes-cadastrados .pesquisa-pacientes table {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.area-restrita-adm-pacientes-cadastrados .pesquisa-pacientes table thead {
+    color: #0956b9;
+}
+
+
+/*TELA RELATÓRIOS*/
+
+.container-relatorio {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 60%;
+}
+
+.container-relatorio .menu-relatorio .nav-item {
+    color: #042c61;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-relatorio .menu-relatorio .nav-item .nav-link {
+    color: #0956b9;
+    text-decoration: none;
+}
+
+#mytab {
+    margin-bottom: 2%;
+}
+
+.botão-imprimir-relatorios {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.botão-imprimir-relatorios .print-btn-form {
+    float: right;
+    margin-right: -10%;
+    font-size: 30px;
+    color: #0956b6;
+}
+
+
+/*LOGIN-ENFERMEIRO*/
+
+.login-enfermeiro-adm {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.login-enfermeiro-adm .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    background-color: white;
+}
+
+.login-enfermeiro-adm form .geral-btn-form {
+    margin-top: 35%;
+    margin-left: 15%;
+}
+
+
+/*LOGIN MÉDICO*/
+
+.login-medico-adm {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.login-medico-adm .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    background-color: white;
+}
+
+.login-medico-adm form .geral-btn-form {
+    margin-top: 35%;
+    margin-left: 15%;
+}
+
+
+/*LOGIN FUNCIONARIO*/
+
+.login-funcionario-adm {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.login-funcionario-adm .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    background-color: white;
+}
+
+.login-funcionario-adm form .geral-btn-form {
+    margin-top: 35%;
+    margin-left: 15%;
+}
+
+
+/*MÉDICOS CADASTRADOS*/
+
+.area-restrita-adm-medicos-cadastrados {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.area-restrita-adm-medicos-cadastrados .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    background-color: white;
+}
+
+.area-restrita-adm-medicos-cadastrados .medicos-cadastrados-adm {
+    margin-bottom: 5%;
+}
+
+.area-restrita-adm-medicos-cadastrados .medicos-cadastrados-adm table {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.area-restrita-adm-medicos-cadastrados .medicos-cadastrados-adm table thead {
+    color: #0956b9;
+}
+
+.area-restrita-adm-medicos-cadastrados {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.area-restrita-adm-medicos-cadastrados {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+
+/*FUNCIONÁRIOS CADASTRADOS*/
+
+.area-restrita-adm-funcionarios-cadastrados .search-btn-form {
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-top: -3%;
+    color: #0a489b;
+    font-size: 20px;
+    background-color: white;
+}
+
+.area-restrita-adm-funcionarios-cadastrados .funcionarios-cadastrados-adm {
+    margin-bottom: 5%;
+}
+
+.area-restrita-adm-funcionarios-cadastrados .funcionarios-cadastrados-adm table {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.area-restrita-adm-funcionarios-cadastrados .funcionarios-cadastrados-adm table thead {
+    color: #0956b9;
+}
+
+.area-restrita-adm-funcionarios-cadastrados .adicionar-cadastro-funcionario {
+    font-size: 22px;
+    margin-top: 2%;
+    width: 80%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    color: #0956b9;
+    text-decoration: none;
+}
+
+.area-restrita-adm-funcionarios-cadastrados .texto-cadastrar-funcionario {
+    font-size: 16px;
+    margin-left: 4%;
+    margin-top: -2.5%;
+}
+
+.container-tabela-medico {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-form-medico .campo-form-direita button {
+    margin-top: 35%;
+    margin-bottom: 15%;
+}
+
+.main table thead {
+    color: #0956b6;
+    text-align: center;
+}
+
+.main table td {
+    text-align: center;
+}
+
+.container-form-funcionario .campo-form-direita .geral-btn-form {
+    margin-top: 35%;
+    margin-bottom: 8%;
+}
+
+
+/*GERENCIAMENTO LOGIN*/
+
+.gerenciamento-login-adm {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+.div-gerenciamento-login {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.div-gerenciamento-login table {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.fa-edit {
+    color: black;
+}
+
+.fa-trash {
+    color: black;
+}
+
+.fa-download {
+    color: black;
+}

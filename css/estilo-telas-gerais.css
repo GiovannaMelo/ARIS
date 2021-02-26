@@ -1,0 +1,421 @@
+::-webkit-scrollbar {
+    /* 1 */
+    width: 10px;
+    height: 10px;
+    background: color(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-button {
+    /* 2 */
+    background: color(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-track {
+    /* 3 */
+    background: color(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-track-piece {
+    /* 4 */
+    background: color(0, 0, 0, 0.0);
+}
+
+::-webkit-scrollbar-thumb {
+    /* 5 */
+    background-color: #0e5086;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner {
+    /* 6 */
+    background: color(0, 0, 0, 0.0);
+}
+
+#esqueleto {
+    width: 100%;
+    height: auto;
+}
+
+
+/*INÍCIO ANIMAÇÕES SIDEBAR*/
+
+@keyframes right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animate-right {
+    animation-name: right;
+    animation-duration: 500ms;
+}
+
+
+/*FINAL ANIMAÇÕES SIDEBAR*/
+
+.nav-itens-sidebar ul .nomeDoLink-show.show {
+    display: block;
+}
+
+.nav-itens-sidebar ul .nomeDoLink2-show.show2 {
+    display: block;
+}
+
+.nav-itens-sidebar ul .nomeDoLink3-show.show3 {
+    display: block;
+}
+
+.nav-itens-sidebar ul .nomeDoLink4-show.show4 {
+    display: block;
+}
+
+
+/*INÍCIO SIDEBAR*/
+
+aside {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background: linear-gradient(0deg, #e7e5fc 0%, #0e5086 50%, #13498b 100%);
+    z-index: 500;
+}
+
+.header-sidebar {
+    width: 100%;
+    height: auto;
+    max-height: 15%;
+}
+
+.aside-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.secao-itens-sidebar {
+    width: 100%;
+    height: 75%;
+    overflow: auto;
+}
+
+.nav-itens-sidebar {
+    float: left;
+    width: 100%;
+}
+
+.nav-itens-sidebar ul {
+    list-style: none;
+    padding-left: 10%;
+}
+
+.nav-itens-sidebar ul li {
+    line-height: 60px;
+}
+
+.nav-itens-sidebar ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    font-weight: 100;
+    display: block;
+    border-left: 5px solid transparent;
+}
+
+.nav-itens-sidebar ul li a .fas {
+    width: 25;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.nav-itens-sidebar ul li a .far {
+    width: 25;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.nav-itens-sidebar ul li a:hover {
+    color: white;
+    border-left-color: #073266;
+}
+
+.nav-itens-sidebar ul ul {
+    position: static;
+    display: none;
+}
+
+.nav-itens-sidebar ul ul li {
+    border-bottom: none;
+}
+
+.nav-itens-sidebar ul ul li a {
+    font-size: 16px;
+    padding-left: 10px;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.nav-itens-sidebar ul li a span {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+}
+
+.nav-itens-sidebar ul li a:hover span {
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.icones-sidebar {
+    widows: 100%;
+    height: 10%;
+}
+
+.div-icones-sidebar {
+    position: absolute;
+    bottom: 0%;
+    margin-left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.div-icones-sidebar a {
+    display: block;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    line-height: 40px;
+    margin: 0 5px;
+    color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+/*FINAL SIDEBAR*/
+
+
+/*INICIO MAIN*/
+
+.main {
+    width: 80%;
+    min-height: 100%;
+    height: auto;
+    float: right;
+}
+
+.titulo-descricao-main {
+    width: 100%;
+    height: auto;
+}
+
+.titulo-descricao-main h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3c86e0;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-top: 1.5%;
+}
+
+.titulo-descricao-main hr {
+    color: gray;
+}
+
+
+/*FINAL MAIN*/
+
+.divirta-se-aqui {
+    width: 100%;
+    height: auto;
+    float: right;
+    position: inherit;
+}
+
+
+/*INICIO INPUTS FORMULÁRIOS*/
+
+.form-formularios {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 2%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.campo-form-solitario {
+    width: 30%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.campo-form-dois-lado-a-lado {
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 2%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.campo-form-lado-a-lado {
+    float: left;
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.campo-botao {
+    width: 100%;
+    width: auto;
+    position: relative;
+}
+
+.campo-form-direita {
+    float: right;
+    margin-right: 1%;
+}
+
+.input-container {
+    width: 32%;
+    position: relative;
+}
+
+.input-form {
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.label-form {
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #616161;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 1rem;
+    cursor: text;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.input-form,
+.label-form {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+
+/* Interação do formulário */
+
+.input-form:valid,
+.input-form:focus {
+    border-bottom: 2px solid #0a489b;
+}
+
+.input-form:valid+.label-form,
+.input-form:focus+.label-form {
+    color: #0a489b;
+    font-size: .8rem;
+    top: -30px;
+    pointer-events: none;
+}
+
+.geral-btn-form {
+    height: auto;
+    width: 40%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    background-color: #0a489b;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.geral-btn {
+    height: auto;
+    width: 12.5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 12%;
+    padding-bottom: 0.6%;
+    padding-top: 0.6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    border: none;
+    background-color: #0a489b;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.sub-descricao-formulario {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: inherit;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sub-descricao-formulario h4 {
+    color: #121D88;
+}
+
+
+/*FINAL INPUTS FORMULÁRIOS*/
+
+sup {
+    color: red;
+}
+
+.adicionar-cadastro {
+    width: 30%;
+    float: right;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    font-size: 25px;
+    color: #0956b9;
+    text-decoration: none;
+    margin-top: 1%;
+}
+
+.adicionar {
+    margin-left: 3%;
+    text-decoration: none;
+}
+
+.adicionar-cadastro p {
+    color: #121D88;
+    font-size: 17px;
+    margin-left: 10%;
+    margin-top: -8%;
+    text-decoration: none;
+}
+
+a.adicionar-cadastro {
+    text-decoration: none;
+}
